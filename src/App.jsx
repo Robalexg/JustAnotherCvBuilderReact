@@ -1,12 +1,12 @@
-
+import { Nav } from './Nav'
 import './App.css'
 
 function App() {
 
   return (
-    <>
-     <h1>Setup</h1>
-    </>
+    <div className='app'>
+      <Nav/>
+    </div>
   )
 }
 

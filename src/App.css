@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  display: grid;
+  grid-template-rows: 1fr 10fr;
+  height: 100vh;
+  font-family: "Momo Trust Display", sans-serif;
+}

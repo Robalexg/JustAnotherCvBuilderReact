@@ -1,0 +1,7 @@
+
+.nav{
+    border-bottom: 1px solid #DBDBDB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
