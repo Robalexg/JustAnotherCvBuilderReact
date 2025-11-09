@@ -1,0 +1,41 @@
+.degree > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.degree{
+    display: flex;
+    flex-direction: column;
+    color: #8D8D8D;
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+.degree  h2{
+    color: black;
+    font-size: 15px;
+}
+
+
+.degree p {
+    font-size: 10px;
+}
+.degree button{
+    font-size: 15px;
+    background: none;
+    border: none;
+    color: red;
+    display: none;
+}
+
+.degree button:hover{
+    color: rgba(255, 0, 0, 0.5);
+
+}
+
+
+.degree:hover button{
+    display: block;
+}
+
+

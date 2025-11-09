@@ -1,0 +1,69 @@
+.preview{
+    background: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume{    
+    background: #FFFFFF;
+    height: 90%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid black;
+
+}
+
+.header h2{
+    font-size: 12px;
+}
+
+
+.exp{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    padding: 15px;
+}
+
+.exp > h1,
+.edu > h1,
+.about-me > h1{
+    font-size: 20px;
+}
+
+
+.about-me p {
+    font-size: 10px;
+    color: #8D8D8D;
+}
+
+.edu h1{
+    grid-column: 1/3;
+}
+
+.edu{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    row-gap: 10px;
+}
+
+.about-me{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-me > p {
+    word-break: break-all;
+}

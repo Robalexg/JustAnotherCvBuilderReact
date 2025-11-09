@@ -1,11 +1,13 @@
 import { Nav } from './Nav'
-import './App.css'
+import { MainSection } from './MainSection'
+import './css/App.css'
 
 function App() {
 
   return (
     <div className='app'>
       <Nav/>
+      <MainSection/>
     </div>
   )
 }

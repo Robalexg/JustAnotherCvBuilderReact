@@ -1,0 +1,59 @@
+.sidebar{
+    border-right: 1px solid #DBDBDB;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+.sidebar button{
+    border:  1px solid green;
+    padding: 5px;
+    border-radius: 20px;    
+    background: none;
+    color: green;
+}
+
+.sidebar input,
+.sidebar textarea{
+    border: 1px solid #DBDBDB;
+    padding: 10px;
+    border-radius: 10px;
+  font-family: "Momo Trust Display", sans-serif;
+  resize: none;
+
+}
+
+
+.sidebar h1{
+    font-size: 15px;
+}
+
+.sidebar .personal{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.experience,
+.education,
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}   
+
+.experience form,
+.education form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#error{
+    margin-top: 3px;
+    color: red;
+    font-size: 10px;
+}
